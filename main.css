@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+
+
+.main-wrapper{
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #222;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+.title-container{
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Bad Script';
+    font-size: 68px;
+    font-weight: 100;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Bad Script';
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.menu.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    width: 900px;
+    left: 50%;
+    transform: translateX(-450px);
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px 20px #ffffff;
+}
+
+.divider{
+    height: 3px;
+    width: 140px;
+    background-color: #e8e8e8;
+    margin-top: 8px;
+}
+
+.divider-flag{
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    transform: rotate(45deg);
+    margin-left: -2px;
+}
+
+.divider-flag.right{
+    float: right;
+    margin-right: -2px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 48px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid white;
+}
+
+.menu-container a:hover{
+    border-bottom: 1px solid #222;
+}
+
+.hero{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.hero-overlay{
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    left: -10%;
+    /* background-color: red; */
+    z-index: 1;
+    box-shadow: inset 0px 0px 10px 20px #ffffff;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.big-divider{
+    height: 3px;
+    width: 250px;
+    background-color: #ddd;
+    margin: 48px auto;
+}
+
+.details-section{
+    margin-top: 50px;
+}
+
+.details-content{
+    width: 100%;
+}
+
+.address-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.address{
+    text-align: center;
+    color: #777;
+    width: 300px;
+    height: 100px;
+    padding: 5px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+    transition: all 0.2s;
+}
+
+.address:hover{
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.address:hover p, .address:hover .fas{
+    color: #333;
+}
+
+.address p{
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    color: #777;
+
+    transition: color 0.2s;
+}
+
+.address .fas{
+    font-size: 24px;
+    color: #777;
+    transition: color 0.2s;
+}
+
+.schedule-container{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.schedule{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.schedule-section{
+    text-align: center;
+}
+
+.schedule-section h4{
+    font-family: 'Bad Script';
+    font-weight: 100;
+    font-size: 22px;
+    margin: 0;
+}
+
+.schedule-section p{
+    margin: 0;
+}
