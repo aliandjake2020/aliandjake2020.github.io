@@ -127,6 +127,7 @@ h2{
 
 .details-content{
     width: 100%;
+    text-align: center;
 }
 
 .address-container{
@@ -180,7 +181,7 @@ h2{
 }
 
 .schedule{
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -200,4 +201,49 @@ h2{
 
 .schedule-section p{
     margin: 0;
+}
+
+.accomodations-section{
+    margin-top: 75px;
+}
+.accomodations-content{
+    width: 100%;
+    text-align: center;
+}
+
+.section-subtext{
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    color: #777;
+    width: 60%;
+}
+
+.link-button{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #666;
+    padding: 8px 16px;
+    margin: 30px auto;
+    width: 200px;
+    display: block;
+}
+
+.link-button-img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.link-button:hover{
+    background-color: #333;
+}
+
+.registry-section{
+    margin-top: 75px;
+}
+.registry-content{
+    width: 100%;
+    text-align: center;
 }
