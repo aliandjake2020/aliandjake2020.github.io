@@ -21,6 +21,10 @@ body{
     text-align: center;
 }
 
+.date-container{
+    text-align: center;
+}
+
 h1{
     margin: 0;
     font-family: 'Bad Script';
@@ -33,6 +37,12 @@ h2{
     font-family: 'Bad Script';
     font-size: 36px;
     font-weight: 100;
+}
+
+.date-container h2{
+    font-size: 32px;
+    color: #aaa;
+    padding-bottom: 16px;
 }
 
 .menu{
@@ -248,13 +258,30 @@ h2{
     text-align: center;
 }
 
+footer{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+    margin-top: 128px;
+}
+
 @media only screen and (max-width: 650px){
     h1{
         font-size: 40px;
     }
 
-    .menu-container{
-        margin: 0 8px;
+    .date-container h2{
+        font-size: 24px;
+        padding-bottom: 16px;
+    }
+
+    .section-subtext{
+        width: 90%;
+    }
+
+    .menu-container a{
+        font-weight: bold;
     }
 
     .hero-img{
@@ -268,5 +295,20 @@ h2{
 
     .schedule{
         width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .menu-container a{
+        font-size: 12px;
+        margin: 0px 8px;
+    }
+
+    .schedule-section h4{
+        font-size: 20px;
+    }
+
+    .schedule-section p{
+        font-size: 12px;
     }
 }

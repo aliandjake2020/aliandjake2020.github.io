@@ -5,7 +5,7 @@ window.addEventListener('scroll', function(e) {
 function scrollEvent(e){
     var menu = document.querySelector("#menu");
     var currentScrollDepth = document.documentElement.scrollTop;
-    if(currentScrollDepth >= 130){
+    if(currentScrollDepth >= 200){
         // fix menu to top
         menu.classList.add("fixed");
     } else {
