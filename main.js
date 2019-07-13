@@ -13,3 +13,10 @@ function scrollEvent(e){
         menu.classList.remove("fixed");
     }
 }
+
+function scrollTo(elementId, offset){
+    offset = !offset ? 0 : offset;
+    $('html, body').animate({
+        scrollTop: ($("#" + elementId).offset().top - offset)
+    },500);
+}

@@ -247,3 +247,26 @@ h2{
     width: 100%;
     text-align: center;
 }
+
+@media only screen and (max-width: 650px){
+    h1{
+        font-size: 40px;
+    }
+
+    .menu-container{
+        margin: 0 8px;
+    }
+
+    .hero-img{
+        width: 300%;
+        transform: translateX(-32%);
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .schedule{
+        width: 95%;
+    }
+}
