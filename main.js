@@ -2,6 +2,10 @@ window.addEventListener('scroll', function(e) {
     scrollEvent(e);
 });
 
+window.onload = function(){
+    $('#year').html(new Date().getFullYear());
+}
+
 function scrollEvent(e){
     var menu = document.querySelector("#menu");
     var currentScrollDepth = document.documentElement.scrollTop;
