@@ -281,8 +281,13 @@ footer{
         width: 90%;
     }
 
+    .menu-container{
+        justify-content: center;
+    }
+
     .menu-container a{
         font-weight: bold;
+        margin: 0px 8px;    
     }
 
     .hero-img{
@@ -302,7 +307,6 @@ footer{
 @media only screen and (max-width: 400px){
     .menu-container a{
         font-size: 12px;
-        margin: 0px 8px;
     }
 
     .schedule-section h4{
