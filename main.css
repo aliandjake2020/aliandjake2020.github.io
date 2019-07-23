@@ -31,7 +31,7 @@ h1{
 h2{
     margin: 0;
     font-family: 'Bad Script';
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 100;
 }
 
@@ -113,6 +113,9 @@ h2{
 .hero-img{
     width: 100%;
 }
+.hero-slideshow{
+    width: 100%;
+}
 
 .big-divider{
     height: 3px;
@@ -123,6 +126,18 @@ h2{
 
 .details-section{
     margin-top: 50px;
+}
+
+.date-container{
+    width: 100%;
+    text-align: center;
+}
+
+.date{
+    color: #777;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    margin: 0 auto;
 }
 
 .details-content{
@@ -204,7 +219,7 @@ h2{
 }
 
 .accomodations-section{
-    margin-top: 75px;
+    margin-top: 150px;
 }
 .accomodations-content{
     width: 100%;
@@ -224,7 +239,7 @@ h2{
     color: white;
     background-color: #666;
     padding: 8px 16px;
-    margin: 30px auto;
+    margin: 16px auto;
     width: 200px;
     display: block;
 }
@@ -232,8 +247,8 @@ h2{
 .link-button-img{
     width: 90%;
     display: block;
-    margin: auto;
-    margin-bottom: 10px;
+    max-width: 200px;
+    opacity: 0.7;
 }
 
 .link-button:hover{
@@ -241,9 +256,29 @@ h2{
 }
 
 .registry-section{
-    margin-top: 75px;
+    margin-top: 150px;
 }
 .registry-content{
     width: 100%;
     text-align: center;
+}
+
+.registry-list{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registry-item{
+    display: flex;
+    flex-direction: column;
+    margin: auto 16px;
+}
+
+.registry-item-image{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

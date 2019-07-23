@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="./main.css" />
         <script src="https://kit.fontawesome.com/bdea038867.js"></script>
         <script src="./main.js"></script>
+        <script src="./siema/dist/siema.min.js"></script>
     </head>
     <body>
         <div class="main-wrapper">
@@ -25,14 +26,40 @@
                 </div>
                 <div class="hero">
                     <div class="hero-overlay"></div>
-                    <img class="hero-img" src="hero-image.jpg" />
+                    <div class="hero-slideshow">
+                            <img class="hero-img" src="./images/hero-image.jpg" />
+                            <img class="hero-img" src="./images/img1.jpg" />
+                            <img class="hero-img" src="./images/img2.jpg" />
+                            <img class="hero-img" src="./images/img3.jpg" />
+                            <img class="hero-img" src="./images/img4.jpg" />
+                        </div>
+                    <script>
+                        var heroSlider = new Siema({
+                        selector: '.hero-slideshow',
+                        duration: 500,
+                        easing: 'ease-out',
+                        perPage: 1,
+                        startIndex: 0,
+                        loop: true,
+                        onInit: () => {},
+                        onChange: () => {},
+                        });
+
+                        setInterval(function(){
+                            heroSlider.next();
+                        }, 6000);
+                    </script>
                 </div>
             </div>
 
             <div class="details-section">
+                
                 <div class="title-container">
                     <h2>Details</h2>
                 </div>
+                <div class="date-container">
+                        <p class="date">May 16, 2020</p>
+                    </div>
                 <div class="details-content">
                     <p class="section-subtext">
                         Our wedding is being held in downtown Cleveland at the Aloft hotel.  Both the ceremony and reception will be held at the hotel.
@@ -83,12 +110,26 @@
                     </div>
                     <div class="registry-content">
                         <p class="section-subtext">
-                            We sincerely appreciate your gifts to kickstart our lives together :)
+                            We sincerely appreciate any gifts to help us start our lives together :)
                         </p>
-                        <a class="link-button" href="https://www.crateandbarrel.com/gift-registry/alison-delaney-and-jake-demian/r5952047" target="_blank">
-                            <img class="link-button-img" src="./crate-barrel-logo-png-transparent.png" />
-                            View Registry
-                        </a>
+                        <div class="registry-list">
+                            <div class="registry-item">
+                                <div class="registry-item-image">
+                                    <img class="link-button-img" src="./crate-barrel-logo-png-transparent.png" />
+                                </div>
+                                <a class="link-button" href="https://www.crateandbarrel.com/gift-registry/alison-delaney-and-jake-demian/r5952047" target="_blank">
+                                    View Registry
+                                </a>
+                            </div>
+                            <div class="registry-item">
+                                <div class="registry-item-image">
+                                    <img class="link-button-img" src="./bbb.png" />
+                                </div>
+                                <a class="link-button" href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547503473?eventType=Wedding" target="_blank">
+                                    View Registry
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
