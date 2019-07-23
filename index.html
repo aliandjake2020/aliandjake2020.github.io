@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Alison and Jake - May 16th, 2020</title>
+        <title>Alison and Jake Wedding - May 16th, 2020</title>
+
+        <meta name="description" content="Alison Delaney and Jake Demian Wedding website for May 16th, 2020.  Downtown Cleveland venue, hotel blocks, registry, and information.">
+        <meta name="robots" content="index, follow">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/bdea038867.js"></script>
         <script src="./main.js"></script>
         <script src="./siema/dist/siema.min.js"></script>
@@ -11,16 +17,19 @@
     <body>
         <div class="main-wrapper">
             <div class="header">
-                <div class="title-container">
+                <div class="title-container" id="pageTitle">
                     <h1>Alison & Jake</h1>
+                </div>
+                <div class="date-container">
+                    <h2>May 16th, 2020</h2>
                 </div>
                 <div class="menu" id="menu">
                     <div class="divider"><div class="divider-flag left"></div></div>
                     <div class="menu-container">
-                        <a href=#>Home</a>
-                        <a href=#>Details</a>
-                        <a href=#>Accomodations</a>
-                        <a href=#>Registry</a>
+                        <a href="javascript:scrollTo('pageTitle')">Home</a>
+                        <a href="javascript:scrollTo('details', 110)">Details</a>
+                        <a href="javascript:scrollTo('accomodations')">Accomodations</a>
+                        <a href="javascript:scrollTo('registry')">Registry</a>
                     </div>
                     <div class="divider"><div class="divider-flag right"></div></div>
                 </div>
@@ -52,14 +61,11 @@
                 </div>
             </div>
 
-            <div class="details-section">
-                
+
+            <div class="details-section" id="details">
                 <div class="title-container">
                     <h2>Details</h2>
                 </div>
-                <div class="date-container">
-                        <p class="date">May 16, 2020</p>
-                    </div>
                 <div class="details-content">
                     <p class="section-subtext">
                         Our wedding is being held in downtown Cleveland at the Aloft hotel.  Both the ceremony and reception will be held at the hotel.
@@ -91,18 +97,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="accomodations-section">
-                    <div class="title-container">
-                        <h2>Accomodations</h2>
-                    </div>
-                    <div class="accomodations-content">
-                        <p class="section-subtext">
-                            Reserve your room at Aloft Cleveland Downtown hotel for a discounted rate.
-                        </p>
-                        <a class="link-button" href="https://www.marriott.com/events/start.mi?id=1560870373109&key=GRP" target="_blank">
-                            Reserve a Room
-                        </a>
-                    </div>
+            </div>
+            <div class="accomodations-section" id="accomodations">
+                <div class="title-container">
+                    <h2>Accomodations</h2>
                 </div>
                 <div class="registry-section">
                     <div class="title-container">
@@ -131,13 +129,14 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
 
-        <br/>
-        <br/>
-        <br/>
+            <footer>
+                Jake Demian &copy; <span id="year"></span>
+            </footer>
+        </div>
         <br/>
     </body>
 </html>

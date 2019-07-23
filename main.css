@@ -21,6 +21,10 @@ body{
     text-align: center;
 }
 
+.date-container{
+    text-align: center;
+}
+
 h1{
     margin: 0;
     font-family: 'Bad Script';
@@ -33,6 +37,12 @@ h2{
     font-family: 'Bad Script';
     font-size: 44px;
     font-weight: 100;
+}
+
+.date-container h2{
+    font-size: 32px;
+    color: #aaa;
+    padding-bottom: 16px;
 }
 
 .menu{
@@ -263,6 +273,7 @@ h2{
     text-align: center;
 }
 
+<<<<<<< HEAD
 .registry-list{
     margin-top: 32px;
     display: flex;
@@ -282,3 +293,64 @@ h2{
     justify-content: center;
     align-items: center;
 }
+=======
+footer{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+    margin-top: 128px;
+}
+
+@media only screen and (max-width: 650px){
+    h1{
+        font-size: 40px;
+    }
+
+    .date-container h2{
+        font-size: 24px;
+        padding-bottom: 16px;
+    }
+
+    .section-subtext{
+        width: 90%;
+    }
+
+    .menu-container{
+        justify-content: center;
+    }
+
+    .menu-container a{
+        font-weight: bold;
+        margin: 0px 8px;    
+    }
+
+    .hero-img{
+        width: 300%;
+        transform: translateX(-32%);
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .schedule{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .menu-container a{
+        font-size: 12px;
+    }
+
+    .schedule-section h4{
+        font-size: 20px;
+    }
+
+    .schedule-section p{
+        font-size: 12px;
+    }
+}
+>>>>>>> origin/master
