@@ -273,7 +273,6 @@ h2{
     text-align: center;
 }
 
-<<<<<<< HEAD
 .registry-list{
     margin-top: 32px;
     display: flex;
@@ -293,7 +292,7 @@ h2{
     justify-content: center;
     align-items: center;
 }
-=======
+
 footer{
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
@@ -353,4 +352,3 @@ footer{
         font-size: 12px;
     }
 }
->>>>>>> origin/master
