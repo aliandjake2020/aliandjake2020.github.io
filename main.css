@@ -325,17 +325,16 @@ footer{
         margin: 0px 8px;    
     }
 
-    .hero-img{
-        width: 300%;
-        transform: translateX(-32%);
-    }
-
     .divider{
         display: none;
     }
 
     .schedule{
         width: 95%;
+    }
+
+    .registry-list{
+        flex-direction: column;
     }
 }
 
