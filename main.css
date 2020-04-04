@@ -25,6 +25,14 @@ body{
     text-align: center;
 }
 
+.date-pretext{
+    font-family: 'Quicksand', sans-serif;
+    color: #777;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
 h1{
     margin: 0;
     font-family: 'Bad Script';
@@ -236,11 +244,38 @@ h2{
     text-align: center;
 }
 
-.section-subtext{
+.postpone-section h5{
+    font-family: 'Quicksand', sans-serif;
+    color: #777;
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.postpone-section p, .section-subtext{
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
     color: #777;
     width: 60%;
+}
+
+.postpone-section{
+    margin-bottom: 64px;
+}
+
+.postpone-section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.postpone-section-icon{
+    position: absolute;
+    left: -44px;
+    top: 18px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
 }
 
 .link-button{
