@@ -27,7 +27,7 @@ body{
 
 .date-pretext{
     font-family: 'Quicksand', sans-serif;
-    color: #777;
+    color: #555;
     font-size: 20px;
     font-weight: 100;
     margin-bottom: 0;
@@ -152,7 +152,7 @@ h2{
 }
 
 .date{
-    color: #777;
+    color: #555;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     margin: 0 auto;
@@ -172,7 +172,7 @@ h2{
 
 .address{
     text-align: center;
-    color: #777;
+    color: #555;
     width: 300px;
     height: 100px;
     padding: 5px 0;
@@ -197,14 +197,14 @@ h2{
 .address p{
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
-    color: #777;
+    color: #555;
 
     transition: color 0.2s;
 }
 
 .address .fas{
     font-size: 24px;
-    color: #777;
+    color: #555;
     transition: color 0.2s;
 }
 
@@ -246,7 +246,7 @@ h2{
 
 .postpone-section h5{
     font-family: 'Quicksand', sans-serif;
-    color: #777;
+    color: #555;
     font-size: 28px;
     font-weight: 100;
     margin-top: 16px;
@@ -256,8 +256,16 @@ h2{
 .postpone-section p, .section-subtext{
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
-    color: #777;
-    width: 60%;
+    color: #555;
+    width: 40%;
+}
+
+.important-note{
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
 }
 
 .postpone-section{
