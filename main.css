@@ -244,7 +244,7 @@ h2{
     text-align: center;
 }
 
-.postpone-section h5{
+.postpone-section h5, .covid-notes h5{
     font-family: 'Quicksand', sans-serif;
     color: #555;
     font-size: 28px;
@@ -257,7 +257,7 @@ h2{
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
     color: #555;
-    width: 40%;
+    width: 60%;
 }
 
 .important-note{
@@ -355,7 +355,7 @@ footer{
         padding-bottom: 16px;
     }
 
-    .section-subtext{
+    .postpone-section p, .section-subtext{
         width: 90%;
     }
 
@@ -393,4 +393,8 @@ footer{
     .schedule-section p{
         font-size: 12px;
     }
+}
+
+.covid-notes p{
+   margin-bottom: 16px;
 }
