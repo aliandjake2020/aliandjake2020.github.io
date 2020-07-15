@@ -309,7 +309,7 @@ h2{
 }
 
 .registry-section{
-    margin-top: 150px;
+    margin-top: 64px;
 }
 .registry-content{
     width: 100%;
@@ -397,4 +397,9 @@ footer{
 
 .covid-notes p{
    margin-bottom: 16px;
+}
+
+.livestream-section{
+    margin-top: 64px;
+    text-align: center;
 }
