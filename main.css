@@ -403,3 +403,9 @@ footer{
     margin-top: 64px;
     text-align: center;
 }
+
+.main-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
