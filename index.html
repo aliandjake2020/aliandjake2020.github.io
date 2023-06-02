@@ -24,31 +24,22 @@
                     <h2>August 21st, 2020</h2>
                 </div>
 
-                <div class="main-video">
-                    <iframe 
-                    width="1000" 
-                    height="563" 
-                    src="https://www.youtube.com/embed/2rheRzqxM7I" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen
-                    ></iframe>
-                </div>
 
-                <!-- <div class="menu" id="menu">
+                <div class="menu" id="menu">
                     <div class="divider"><div class="divider-flag left"></div></div>
                     <div class="menu-container">
                         <a href="javascript:scrollTo('pageTitle')">Home</a>
                         <a href="javascript:scrollTo('details', 110)">Details</a>
                         <a href="javascript:scrollTo('livestream')">Live Stream</a>
                         <a href="javascript:scrollTo('registry')">Registry</a>
+                        <a href="javascript:scrollTo('ceremony-video')">Video</a>
                     </div>
                     <div class="divider"><div class="divider-flag right"></div></div>
-                </div> -->
-                <!-- <div class="hero"> -->
+                </div>
+                <div class="hero">
                     
 
-                    <!-- <div class="hero-overlay"></div>
+                    <div class="hero-overlay"></div>
                     <div class="hero-slideshow">
                             <img class="hero-img" src="./images/hero-image.jpg" />
                             <img class="hero-img" src="./images/img1.jpg" />
@@ -71,12 +62,12 @@
                         setInterval(function(){
                             heroSlider.next();
                         }, 6000);
-                    </script> -->
-                <!-- </div> -->
+                    </script>
+                </div>
             </div>
 
 
-            <!-- <div class="details-section" id="details">
+            <div class="details-section" id="details">
                 <div class="title-container">
                     <h2>Details</h2>
                 </div>
@@ -88,9 +79,9 @@
 
                 <div class="livestream-section" id="livestream">
                     <h2>Live Stream</h2>
-                    <p class="section-subtext">You can still participate in our ceremony virtually, as we will be live streaming the event.  On the day of the wedding, you will be able to click the link below to view the live stream.</p>
-                    <a class="link-button" href="https://us04web.zoom.us/j/78487567133?pwd=VHFFdWx0US9YVG9ETHBaTDFieHBGQT09" target="_blank">
-                        View Live Stream
+                    <p class="section-subtext">The live stream is over, but you can still view the video of the ceremony below!</p>
+                    <a disabled="true" class="link-button" href="javascript:void(0)" target="_blank">
+                        Event has ended
                     </a>
                 </div>
                     
@@ -103,29 +94,46 @@
                 </div>
                 <div class="registry-content">
                     <p class="section-subtext">
-                        We sincerely appreciate any gifts to help us start our lives together :)
+                        We sincerely appreciate all of the gifts we received to help start our lives together :)
                     </p>
                     <div class="registry-list">
                         <div class="registry-item">
                             <div class="registry-item-image">
                                 <img class="link-button-img" src="./crate-barrel-logo-png-transparent.png" />
                             </div>
-                            <a class="link-button" href="https://www.crateandbarrel.com/gift-registry/alison-delaney-and-jake-demian/r5952047" target="_blank">
-                                View Registry
+                            <a class="link-button" href="javascript:void(0)" target="_blank">
+                                Registry is closed
                             </a>
                         </div>
                         <div class="registry-item">
                             <div class="registry-item-image">
                                 <img class="link-button-img" src="./bbb.png" />
                             </div>
-                            <a class="link-button" href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547503473?eventType=Wedding" target="_blank">
-                                View Registry
+                            <a class="link-button" href="javascript:void(0)" target="_blank">
+                                Registry is closed
                             </a>
                         </div>
                     </div>
                 </div>
 
-            </div> -->
+            </div>
+
+            <div class="video-section" id="ceremony-video">
+                <div class="title-container">
+                    <h2>Ceremony Video</h2>
+                </div>
+                <div class="video-container">
+                    <div class="main-video">
+                        <iframe 
+                        class="responsive-iframe"
+                        src="https://www.youtube.com/embed/2rheRzqxM7I" 
+                        frameborder="0" 
+                        allowfullscreen
+                        ></iframe>
+                    </div>
+                </div> 
+            </div>
+
             <footer>
                 Jake Demian &copy; <span id="year"></span>
             </footer>

@@ -289,12 +289,15 @@ h2{
 .link-button{
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    color: white;
-    background-color: #666;
+    color: #aaa;
+    background-color: #ddd;
     padding: 8px 16px;
     margin: 16px auto;
     width: 200px;
     display: block;
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
 }
 
 .link-button-img{
@@ -302,10 +305,6 @@ h2{
     display: block;
     max-width: 200px;
     opacity: 0.7;
-}
-
-.link-button:hover{
-    background-color: #333;
 }
 
 .registry-section{
@@ -334,6 +333,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+}
+
+.video-section{
+    margin-top: 64px;
 }
 
 footer{
@@ -408,4 +412,26 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 42.2%; /*magic number.. didn't work with expected 16:9 aspect ratio so I improvised*/
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        width: 100%;
+    }
 }
